@@ -1,0 +1,1 @@
+print('R$', faturamentoAnual * 0.2)
