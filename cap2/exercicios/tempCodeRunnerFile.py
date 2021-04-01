@@ -1,1 +1,1 @@
-print('R$', faturamentoAnual * 0.2)
+lixo1
