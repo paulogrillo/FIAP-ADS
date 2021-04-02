@@ -1,10 +1,9 @@
-altura = float(input("Digite sua altura em metros: "))
-peso = float(input("Digite seu peso em Kg: "))
+altura = float(input("Digite sua altura em metros \nEXEMPLO: (1.70)\n- "))
+peso = float(input("Digite seu peso em Kg: \n- "))
 imc = peso / altura**2
 
 print('\033[32m' + '------------------------------')
 print('\x1b[1m' + "Seu IMC é: ", imc)
-
 
 if imc < 16:
     print('\x1b[1;31m' + '------------------------------')
