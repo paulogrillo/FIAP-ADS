@@ -16,7 +16,6 @@ class DiaSemanaVotacao:
         return self
 
 class Assinatura:
-
     diaSemanaVotacao = [
         DiaSemanaVotacao().init("Segunda-feira", 0),
         DiaSemanaVotacao().init("Terca-feira", 0),
