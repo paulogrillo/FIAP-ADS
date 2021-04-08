@@ -7,10 +7,14 @@
 
 nameUsuario = str(input("Informe o seu nome: "))
 nameAlimento_0 = str(input("Informe o nome do 1° alimento: "))
-caloriaAlimento_0 = float(input("Informe o número (cal) calorias do alimento: "))
+caloriaAlimento_0 = int(input("Informe o número (Kcal) calorias do alimento: "))
 nameAlimento_1 = str(input("Informe o nome do 2° alimento: "))
-caloriaAlimento_1 = float(input("Informe o número (cal) calorias do alimento: "))
+caloriaAlimento_1 = int(input("Informe o número (Kcal) calorias do alimento: "))
 
 totalCalorias = caloriaAlimento_0 + caloriaAlimento_1
-print("Olá,", nameUsuario, "\n Você consumiu total: ", totalCalorias, "cal")
-print("alimentos consumidos: \n", nameAlimento_0, "\n", nameAlimento_1)
+print("Olá,", nameUsuario, "!" "\nHoje você consumiu:")
+print("\x1b[1;31m", totalCalorias, "Calorias (Kcal)", "\033[0;0m")
+print("Esses são os alimentos que você consumiu:")
+
+print(nameAlimento_0)
+print(nameAlimento_1)

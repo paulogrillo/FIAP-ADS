@@ -10,28 +10,14 @@
 #Deve exibir no final o valor total gasto 
 #Deve calcular média do valor de cada transação
 
-iniciar = input("Deseja iniciar? Digite (S) ")
+nome_transacao_0 = str(input("Digite o nome da primeira transação:"))
+valor_transacao_0 = float(input("Digite o valor da primeira transação:"))
+breakContinue = input("Nova transação(S) Encerrar(N)")
 
-if iniciar == "S":
-    nome_transacao_0 = str(input("Digite o nome primeira transação:"))
-    nova_transacao_0 = float(input("Digite o valor da primeira transação:"))
-else:
-    print("Que pena..")
-nome_transacao_1 = str(input("Digite o nome da segunda transação:"))
-nova_transacao_1 = float(input("Digite o valor da segunda transação:"))
-continuar = input("Deseja continuar ? ")
-
-if continuar == "S":
-    nome_transacao_2 = str(input("Digite o nome da terceira transação:"))
-    nova_transacao_2 = float(input("Digite o valor da terceira transação:"))
-    total = nova_transacao_0 + nova_transacao_1 + nova_transacao_2
-    print("Total das transações:", total)
-    media = total / 3
-    print(media)
-    continuar = input("Deseja continuar ? ")
-else:
-    print("Fim")
-    total = nova_transacao_0 + nova_transacao_1 + nova_transacao_2
-    print("Total das transações:", total)
-    media = total / 3
-    print("Média", media)
+if breakContinue == "S":
+    nome_transacao_1 = str(input("Digite o valor da segunda transação:"))
+    valor_transacao_1 = float(input("Digite o nome da segunda transação:"))
+elif breakContinue == "N":
+    total = valor_transacao_0 + valor_transacao_1
+    print("Total das transações:")
+    print("R$", total)
