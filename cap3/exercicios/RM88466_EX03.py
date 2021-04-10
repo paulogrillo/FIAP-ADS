@@ -30,6 +30,6 @@ if i == 0:
     print("O número 0 está na sequência de fibonacci. \nO Próximo número é: 1")
 else:
     if i == n3:
-        print("O número", i, "está na sequencia")
+        print("O número", i, "está na sequência de fibonacci!")
     else:
-        print("Este número não faz parte")
+        print("Este número não faz parte da sequência de fibonacci!")
