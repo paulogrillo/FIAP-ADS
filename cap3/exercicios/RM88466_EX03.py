@@ -13,3 +13,23 @@
 #Logo, se o usuário digitar o número 55 o programa deverá informar que a ação foi bem sucedida, afinal 55 está entre os números da sequência.
 
 #Mas se o usuário digitar o número 6, por exemplo, a ação não será bem sucedida, pois o número 6 não está na sequência.
+
+# Program to display the Fibonacci sequence up to n-th term
+
+n1 = 0
+n2 = 1
+n3 = 0
+
+i = int(input("Digite um número que deseja procurar na sequencia de fibonacci: "))
+
+while i > n3:
+    n3 = n1 + n2
+    n1 = n2
+    n2 = n3
+if i == 0:
+    print("O número 0 está na sequência de fibonacci. \nO Próximo número é: 1")
+else:
+    if i == n3:
+        print("O número", i, "está na sequencia")
+    else:
+        print("Este número não faz parte")

@@ -4,11 +4,12 @@
 #Sequencia de Lucas
 # 1, 3, 4, 7, 11, ...
 # Anterior1 + anterior2
+
 #atual = anteior1 + anterior2
 #anteior1 = anteior2
 #anteior2 = atual
 
-quantidade = int(input("Quanyos números deseja exibir?"))
+quantidade = int(input("Quantos números deseja exibir?"))
 anterior1 = 1
 anterior2 = 3
 atual = 0
