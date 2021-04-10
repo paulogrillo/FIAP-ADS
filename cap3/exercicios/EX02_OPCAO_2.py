@@ -35,21 +35,15 @@ elif valor_transacao_2 > 0:
 total = valor_transacao_0 + valor_transacao_1 + valor_transacao_2
 media = total / 3
 
-print("\x1b[1;31m")
-print("##======##======##======##=======##====##")
-print("\033[0;0m")
+print("\x1b[1;31m", "##======##======##======##=======##====##", "\033[0;0m")
 
 print("Número de transações:", contador)
-print("Valor total gasto:", "R$", total)
-print("Valor médio das transações:", "R$", media)
+print("Valor total gasto: R${:.2f}".format(total))
+print("Valor médio das transações: R${:.2f}".format(media))
 
-print("\x1b[1;31m")
-print("##======##======##======##=======##====##")
 print("\033[0;0m")
-
 print("Histórico de transações:")
+print("ID 1", nome_transacao_0, "R$ {:.2f}".format(valor_transacao_0))
+print("ID 2", nome_transacao_1, "R$ {:.2f}".format(valor_transacao_1))
+print("ID 3", nome_transacao_2, "R$ {:.2f}".format(valor_transacao_2))
 print("\x1b[1;31m")
-print("ID 1", nome_transacao_0, "R$", valor_transacao_0)
-print("ID 2", nome_transacao_1, "R$", valor_transacao_1)
-print("ID 3", nome_transacao_2, "R$", valor_transacao_2)
-print("\033[0;0m")
