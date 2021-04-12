@@ -20,7 +20,7 @@ n1 = 0
 n2 = 1
 n3 = 0
 
-i = int(input("Digite um número que deseja procurar na sequencia de fibonacci: "))
+i = int(input("Digite um número que deseja procurar na sequência de fibonacci: "))
 
 while i > n3:
     n3 = n1 + n2

@@ -16,5 +16,5 @@ print("Olá,", nameUsuario, "!" "\nHoje você consumiu:")
 print("\x1b[1;31m", totalCalorias, "Calorias (Kcal)", "\033[0;0m")
 print("Esses são os alimentos que você consumiu:")
 
-print(nameAlimento_0)
-print(nameAlimento_1)
+print("Nome: {}\n Caloria: {}".format(nameAlimento_0, caloriaAlimento_0))
+print("Nome: {}\n Caloria: {}".format(nameAlimento_1, caloriaAlimento_1))
