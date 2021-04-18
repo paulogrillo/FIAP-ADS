@@ -47,7 +47,7 @@ elif imc < 40:
 
     print('\033[37m' + "Obesidade Grau II")
 
-elif imc > 40:
+elif imc >= 40:
     print('\x1b[1;31m' + '------------------------------')
     print('\033[34m' + 'Status atual: ')
 
